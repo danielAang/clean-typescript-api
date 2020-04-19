@@ -1,0 +1,11 @@
+{
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ]
+}

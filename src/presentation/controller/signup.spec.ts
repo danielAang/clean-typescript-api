@@ -64,7 +64,7 @@ describe('Signup Controller', () => {
     expect(httpResponse.body).toEqual(new MissingParamError('password'))
   })
 
-  test('Should return 400 when no passwordConfirmation is provided', () => {
+  test('Should return 400 if no passwordConfirmation is provided', () => {
     const { signupController } = signupFactory()
     const httpRequest = {
       body: {
@@ -76,6 +76,21 @@ describe('Signup Controller', () => {
     const httpResponse = signupController.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(400)
     expect(httpResponse.body).toEqual(new MissingParamError('passwordConfirmation'))
+  })
+
+  test('Should return 400 if no passwordConfirmation fails', () => {
+    const { signupController } = signupFactory()
+    const httpRequest = {
+      body: {
+        email: 'any_email@mail.com',
+        name: 'any_name',
+        password: 'any_password',
+        passwordConfirmation: 'invalid_password'
+      }
+    }
+    const httpResponse = signupController.handle(httpRequest)
+    expect(httpResponse.statusCode).toBe(400)
+    expect(httpResponse.body).toEqual(new InvalidParamError('passwordConfirmation'))
   })
 
   test('Should return 400 if an invalid email is provided', () => {

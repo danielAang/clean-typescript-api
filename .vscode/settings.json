@@ -7,5 +7,9 @@
     "eslint.validate": [
         "javascript",
         "typescript"
-    ]
+    ],
+    "editor.renderLineHighlight": "line",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#9e959541"
+    }
 }

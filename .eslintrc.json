@@ -7,7 +7,7 @@
     },
     "rules": {
         "@typescript-eslint/strict-boolean-expressions": "off",
-        "no-return-await": 0,
-        "@typescript-eslint/no-return-await": 0
+        "no-return-await": "off",
+        "@typescript-eslint/return-await": ["off", "never"]
     }
 }

@@ -1,10 +1,13 @@
 import { SignupController } from './signup'
 import { MissingParamError, InvalidParamError, ServerError } from '../errors'
 import { EmailValidator } from '../protocols'
+import { AddAccount, AddAccountModel } from '../../domain/usecases/add-account'
+import { AccountModel } from '../../domain/models/account'
 
 interface SutTypes {
   signupController: SignupController
   emailValidatorStub: EmailValidator
+  addAccountStub: AddAccount
 }
 
 const signupFactory = (): SutTypes => {
@@ -13,11 +16,25 @@ const signupFactory = (): SutTypes => {
       return true
     }
   }
+
+  class AddAccountStub implements AddAccount {
+    add (account: AddAccountModel): AccountModel {
+      const fakeAccount = {
+        id: 'valid_id',
+        name: 'valid_name',
+        email: 'valid_email@mail.com',
+        password: 'valid_password'
+      }
+      return fakeAccount
+    }
+  }
   const emailValidatorStub = new EmailValidatorStub()
-  const signupController = new SignupController(emailValidatorStub)
+  const addAccountStub = new AddAccountStub()
+  const signupController = new SignupController(emailValidatorStub, addAccountStub)
   return {
     emailValidatorStub,
-    signupController
+    signupController,
+    addAccountStub
   }
 }
 
@@ -140,5 +157,24 @@ describe('Signup Controller', () => {
     const httpResponse = signupController.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(500)
     expect(httpResponse.body).toEqual(new ServerError())
+  })
+
+  test('Should call AddAccount with correct values', () => {
+    const { signupController, addAccountStub } = signupFactory()
+    const addSpy = jest.spyOn(addAccountStub, 'add')
+    const httpRequest = {
+      body: {
+        name: 'any_name',
+        email: 'any_email@mail.com',
+        password: 'any_password',
+        passwordConfirmation: 'any_password'
+      }
+    }
+    signupController.handle(httpRequest)
+    expect(addSpy).toHaveBeenCalledWith({
+      name: 'any_name',
+      email: 'any_email@mail.com',
+      password: 'any_password'
+    })
   })
 })

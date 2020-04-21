@@ -88,4 +88,20 @@ describe('DbAddAccount Usecase', () => {
     const accountPromise = dbAddAccount.add(accountData)
     await expect(accountPromise).rejects.toThrow()
   })
+
+  test('Should return an Account on success', async () => {
+    const { dbAddAccount } = dbAddAccountFactory()
+    const accountData = {
+      name: 'valid_name',
+      email: 'valid_email',
+      password: 'valid_password'
+    }
+    const account = await dbAddAccount.add(accountData)
+    expect(account).toEqual({
+      id: 'valid_id',
+      name: 'valid_name',
+      email: 'valid_email',
+      password: 'hashed_password'
+    })
+  })
 })

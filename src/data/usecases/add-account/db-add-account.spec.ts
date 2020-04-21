@@ -1,23 +1,38 @@
 import { DbAddAccount } from './db-add-account'
-import { Encrypter } from '../../protocols/encrypter'
+import { Encrypter, AccountModel, AddAccountModel, AddAccountRepository } from './db-add-account-protocols'
 
 interface SutTypes {
   encrypterStub: Encrypter
   dbAddAccount: DbAddAccount
+  addAccountRepositoryStub: AddAccountRepository
 }
 
 const dbAddAccountFactory = (): SutTypes => {
   class EncrypterStub implements Encrypter {
     async encrypt (value: string): Promise<string> {
-      return await new Promise(resolve => resolve('encrypted_value'))
+      return await new Promise(resolve => resolve('hashed_password'))
+    }
+  }
+
+  class AddAccountRepository implements AddAccountRepository {
+    async add (accountData: AddAccountModel): Promise<AccountModel> {
+      const fakeAccount = {
+        id: 'valid_id',
+        name: 'valid_name',
+        email: 'valid_email',
+        password: 'hashed_password'
+      }
+      return new Promise(resolve => resolve(fakeAccount))
     }
   }
 
   const encrypterStub = new EncrypterStub()
-  const dbAddAccount = new DbAddAccount(encrypterStub)
+  const addAccountRepositoryStub = new AddAccountRepository()
+  const dbAddAccount = new DbAddAccount(encrypterStub, addAccountRepositoryStub)
   return {
     encrypterStub,
-    dbAddAccount
+    dbAddAccount,
+    addAccountRepositoryStub
   }
 }
 
@@ -31,7 +46,7 @@ describe('DbAddAccount Usecase', () => {
       password: 'valid_password'
     }
     await dbAddAccount.add(accountData)
-    expect(encryptSpy).toHaveBeenCalledWith(accountData.password)
+    expect(encryptSpy).toHaveBeenCalledWith('valid_password')
   })
 
   test('Should throw if encrypter throws', async () => {
@@ -44,5 +59,21 @@ describe('DbAddAccount Usecase', () => {
     }
     const accountPromise = dbAddAccount.add(accountData)
     await expect(accountPromise).rejects.toThrow()
+  })
+
+  test('Should call AddAccountRepository with correct values', async () => {
+    const { dbAddAccount, addAccountRepositoryStub } = dbAddAccountFactory()
+    const addSpy = jest.spyOn(addAccountRepositoryStub, 'add')
+    const accountData = {
+      name: 'valid_name',
+      email: 'valid_email',
+      password: 'valid_password'
+    }
+    await dbAddAccount.add(accountData)
+    expect(addSpy).toHaveBeenCalledWith({
+      name: 'valid_name',
+      email: 'valid_email',
+      password: 'hashed_password'
+    })
   })
 })

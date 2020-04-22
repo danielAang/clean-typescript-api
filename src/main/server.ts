@@ -1,6 +1,4 @@
-import express from 'express'
+import app from './config/app'
 
 const port = 5050
-
-const app = express()
 app.listen(port, () => console.log(`Server running at port http://localhost:${port}`))

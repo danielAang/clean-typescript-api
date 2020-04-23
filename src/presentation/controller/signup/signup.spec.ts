@@ -13,7 +13,7 @@ interface SutTypes {
 const fakeRequestFactory = (): HttpRequest => ({
   body: {
     email: 'any_email@mail.com',
-    name: 'any_email@mail.com',
+    name: 'any_name',
     password: 'any_password',
     passwordConfirmation: 'any_password'
   }

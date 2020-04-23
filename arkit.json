@@ -1,0 +1,63 @@
+{
+  "$schema": "https://arkit.js.org/schema.json",
+  "excludePatterns": ["test/**", "tests/**", "**/*.test.*", "**/*.spec.*"],
+  "components": [
+    {
+      "type": "Entry",
+      "patterns": ["*.ts"]
+    },
+    {
+      "type": "Component",
+      "patterns": ["src/**/*.ts"]
+    },
+    {
+      "type": "Dependency",
+      "patterns": ["node_modules/*"]
+    }
+  ],
+  "output": [
+    {
+      "path": ["./arkit/arkit.svg"],
+      "groups": [
+        {
+          "first": true,
+          "components": ["Entry"],
+          "patterns": ["src/main/server.ts"]
+        },
+        {
+          "type": "Data",
+          "patterns": ["src/data/**"]
+        },
+        {
+          "type": "Domain",
+          "patterns": ["src/domain/**"]
+        },
+        {
+          "type": "Infra",
+          "patterns": ["src/infra/**"]
+        },
+        {
+          "type": "Main",
+          "patterns": ["src/main/**"]
+        },
+        {
+          "type": "Presentation",
+          "patterns": ["src/presentation/**"]
+        },
+        {
+          "type": "Utils",
+          "patterns": ["src/events/**"]
+        }
+      ],
+      "components": [
+        "Entry", 
+        "Data", 
+        "Domain",
+        "Infra",
+        "Presentation",
+        "Utils",
+        "Dependency"
+      ]
+    }
+  ]
+}

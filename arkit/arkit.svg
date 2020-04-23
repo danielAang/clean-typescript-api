@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="718px" preserveAspectRatio="none" style="width:1790px;height:718px;" version="1.1" viewBox="0 0 1790 718" width="1790px" zoomAndPan="magnify"><defs/><g><!--MD5=[f21b1f164e99c6b37934f23ad048ad54]
+cluster Data--><path d="M517.556,400 L548.556,400 A4.5,4.5 0 0 1 551.556,403 L558.556,420.4844 L1223.56,420.4844 A3,3 0 0 1 1226.56,423.4844 L1226.56,532 A3,3 0 0 1 1223.56,535 L517.556,535 A3,3 0 0 1 514.556,532 L514.556,403 A3,3 0 0 1 517.556,400 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="514.556" x2="558.556" y1="420.4844" y2="420.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="518.556" y="414.0059">Data</text><!--MD5=[121a8bf1197281ab89ed693fab589f94]
+cluster Domain--><path d="M1505.56,386 L1556.56,386 A4.5,4.5 0 0 1 1559.56,389 L1566.56,406.4844 L1775.56,406.4844 A3,3 0 0 1 1778.56,409.4844 L1778.56,466 A3,3 0 0 1 1775.56,469 L1505.56,469 A3,3 0 0 1 1502.56,466 L1502.56,389 A3,3 0 0 1 1505.56,386 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1502.56" x2="1566.56" y1="406.4844" y2="406.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="1506.56" y="400.0059">Domain</text><!--MD5=[fe136eabe4a7fd8dd15eb01473fe8855]
+cluster Infra--><path d="M482.556,559 L514.556,559 A4.5,4.5 0 0 1 517.556,562 L524.556,579.4844 L864.556,579.4844 A3,3 0 0 1 867.556,582.4844 L867.556,691 A3,3 0 0 1 864.556,694 L482.556,694 A3,3 0 0 1 479.556,691 L479.556,562 A3,3 0 0 1 482.556,559 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="479.556" x2="524.556" y1="579.4844" y2="579.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="483.556" y="573.0059">Infra</text><!--MD5=[e80bd461753d6c5ec111731420959425]
+cluster Main--><path d="M39.5563,291 L69.5563,291 A4.5,4.5 0 0 1 72.5563,294 L79.5563,311.4844 L398.556,311.4844 A3,3 0 0 1 401.556,314.4844 L401.556,605 A3,3 0 0 1 398.556,608 L39.5563,608 A3,3 0 0 1 36.5563,605 L36.5563,294 A3,3 0 0 1 39.5563,291 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="36.5563" x2="79.5563" y1="311.4844" y2="311.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="30" x="40.5563" y="305.0059">Main</text><!--MD5=[8fd473fd151a2794da4f2c8684676405]
+cluster Presentation--><path d="M544.556,24 L628.556,24 A4.5,4.5 0 0 1 631.556,27 L638.556,44.4844 L1475.56,44.4844 A3,3 0 0 1 1478.56,47.4844 L1478.56,300 A3,3 0 0 1 1475.56,303 L544.556,303 A3,3 0 0 1 541.556,300 L541.556,27 A3,3 0 0 1 544.556,24 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="541.556" x2="638.556" y1="44.4844" y2="44.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="545.556" y="38.0059">Presentation</text><!--MD5=[7f3af611c25ea4e5baea1b8903ad1435]
+entity _add_account_repository--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="156" x="1054.56" y="485"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="136" x="1064.56" y="507.0059">add-account-repository</text><!--MD5=[4ef7670d345a9d7af5323fc71d2455e7]
+entity _db_add_account--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="112" x="530.556" y="461"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="540.556" y="483.0059">db-add-account</text><ellipse cx="801.1934" cy="452.9275" fill="#F8F8F8" rx="87.6374" ry="19.9275" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="153" x="724.6934" y="456.6697">db-add-account-protocols</text><!--MD5=[0350232d9bf058fe701d6e4b243f261f]
+entity _encrypter--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="73" x="1096.06" y="433"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="1106.06" y="455.0059">encrypter</text><!--MD5=[b4e91817098ca09895b6b593902fa1e5]
+entity _add_account--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="93" x="1518.56" y="419"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="73" x="1528.56" y="441.0059">add-account</text><!--MD5=[c08c8c36c5ce313962f1193c7807a6a5]
+entity _models_account--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="115" x="1647.56" y="419"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="1657.56" y="441.0059">models/account</text><!--MD5=[f2c293d9b3202e06929afd31ee02e146]
+entity _account_repository_account--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="182" x="495.556" y="644"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="162" x="505.556" y="666.0059">account-repository/account</text><!--MD5=[7909c75755968018589f40d3aba9d6f4]
+entity _bcrypt_encrypter_adapter--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="161" x="506.056" y="592"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="141" x="516.056" y="614.0059">bcrypt-encrypter-adapter</text><!--MD5=[061f02330fd628f84d26a368ef00e87b]
+entity _mongo_helper--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="101" x="750.556" y="644"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="81" x="760.556" y="666.0059">mongo-helper</text><ellipse cx="114.5266" cy="443.242" fill="#F8F8F8" rx="19.9706" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="24" x="102.5266" y="446.9842">app</text><ellipse cx="298.9408" cy="452.242" fill="#F8F8F8" rx="21.3848" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="285.9408" y="455.9842">cors</text><ellipse cx="114.6981" cy="535.242" fill="#F8F8F8" rx="17.1421" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="20" x="104.6981" y="538.9842">env</text><ellipse cx="298.9923" cy="497.7873" fill="#F8F8F8" rx="61.9363" ry="14.7873" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93" x="252.4923" y="501.5294">express-adapter</text><ellipse cx="114.4677" cy="355.242" fill="#F8F8F8" rx="53.9117" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="78.4677" y="358.9842">middlewares</text><ellipse cx="299.0436" cy="400.7975" fill="#F8F8F8" rx="84.4876" ry="19.2975" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="146" x="226.0436" y="404.5397">middlewares/body-parser</text><ellipse cx="298.84" cy="344.1568" fill="#F8F8F8" rx="86.284" ry="19.6568" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="150" x="223.84" y="347.899">middlewares/content-type</text><ellipse cx="114.719" cy="399.242" fill="#F8F8F8" rx="29.163" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="96.219" y="402.9842">routes</text><ellipse cx="114.5474" cy="579.242" fill="#F8F8F8" rx="31.9914" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="94.0474" y="582.9842">server</text><ellipse cx="299.1331" cy="545.0154" fill="#F8F8F8" rx="58.0771" ry="14.0154" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="257.6331" y="548.7576">signup-factory</text><ellipse cx="114.4923" cy="488.7873" fill="#F8F8F8" rx="61.9363" ry="14.7873" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="67.9923" y="492.5294">signup-routes</text><!--MD5=[04b51d3af30822ced95d5d50fa2c4194]
+entity _controller--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="75" x="1278.06" y="233"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="1288.06" y="255.0059">controller</text><!--MD5=[6914f37623fdf6f34b1620325b7c6240]
+entity _email_validator--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="105" x="1080.06" y="57"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="1090.06" y="79.0059">email-validator</text><ellipse cx="1132.6016" cy="146.242" fill="#F8F8F8" rx="27.0416" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="1115.6016" y="149.9842">errors</text><!--MD5=[beaeab61d128dfdb74b428ebbd90710a]
+entity _http--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="42" x="1420.56" y="233"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="22" x="1430.56" y="255.0059">http</text><ellipse cx="971.3966" cy="136.242" fill="#F8F8F8" rx="46.8406" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="940.3966" y="139.9842">http-helper</text><!--MD5=[c522aa5548f60fc38229ed19b331cd6d]
+entity _invalid_param_error--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="129" x="1251.06" y="129"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="109" x="1261.06" y="151.0059">invalid-param-error</text><!--MD5=[7adacdb865fdd4f7c04687feabeda659]
+entity _missing_param_error--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="138" x="1246.56" y="77"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="118" x="1256.56" y="99.0059">missing-param-error</text><ellipse cx="1132.658" cy="268.242" fill="#F8F8F8" rx="42.598" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="1104.658" y="271.9842">protocols</text><!--MD5=[9094371e29a88e4fe91a3044e9dc89db]
+entity _server_error--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="87" x="1272.06" y="181"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="1282.06" y="203.0059">server-error</text><!--MD5=[ed5c19a01b595dc813d031794a478908]
+entity _signup--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="58" x="557.556" y="169"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="567.556" y="191.0059">signup</text><ellipse cx="800.8869" cy="202.7662" fill="#F8F8F8" rx="64.3309" ry="15.2662" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="751.3869" y="206.5084">signup-protocols</text><!--MD5=[dfcbe7497c649fb34e75cfa6d571a699]
+link _account_repository_account to _add_account--><path d="M658.65,643.9732 C665.218,641.3648 671.625,638.3884 677.556,635 C696.666,624.0832 693.506,610.0738 713.556,601 C818.071,553.702 855.837,577 970.556,577 C970.556,577 970.556,577 1316.56,577 C1412.61,577 1505.38,495.831 1544.56,456.663 " fill="none" id="_account_repository_account-&gt;_add_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1548.18,453.008,1539.007,456.5936,1544.6638,456.5628,1544.6946,462.2195,1548.18,453.008" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[c34f72e598d12ff4f35c380b7c8041bd]
+link _account_repository_account to _add_account_repository--><path d="M664.502,643.7649 C669.15,641.2331 673.556,638.3296 677.556,635 C705.054,612.1111 684.564,583.963 713.556,563 C727.025,553.261 931.076,526.721 1049,512.062 " fill="none" id="_account_repository_account-&gt;_add_account_repository" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1054.21,511.416,1044.7867,508.5522,1049.2479,512.0304,1045.7697,516.4916,1054.21,511.416" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f4d8a1b8a25e769b9e6e5f979d718355]
+link _account_repository_account to _models_account--><path d="M662.24,643.9744 C679.051,640.5935 696.859,637.3629 713.556,635 C826.994,618.9472 855.989,615 970.556,615 C970.556,615 970.556,615 1442.56,615 C1553.1,615 1651.22,504.723 1688.31,457.282 " fill="none" id="_account_repository_account-&gt;_models_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1691.5,453.163,1682.8291,457.8338,1688.4405,457.1177,1689.1566,462.729,1691.5,453.163" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[631634fbc3825a9484bba19f8ad1f63f]
+link _account_repository_account to _mongo_helper--><path d="M677.675,661 C700.617,661 724.587,661 745.169,661 " fill="none" id="_account_repository_account-&gt;_mongo_helper" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="750.327,661,741.327,657,745.327,661,741.327,665,750.327,661" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[96c30eeb900cf701e5937fd666c61e7e]
+link _add_account to _models_account--><path d="M1611.63,436 C1621.48,436 1632.05,436 1642.4,436 " fill="none" id="_add_account-&gt;_models_account" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1647.46,436,1638.46,432,1642.46,436,1638.46,440,1647.46,436" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[1ca2771154c33d24c31fce789189c6c0]
+link _add_account_repository to _add_account--><path d="M1210.7,488.015 C1222.69,485.936 1234.95,483.867 1246.56,482 C1340.56,466.875 1450.59,451.439 1513.33,442.851 " fill="none" id="_add_account_repository-&gt;_add_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1518.51,442.143,1509.0543,439.3879,1513.5553,442.8145,1510.1287,447.3154,1518.51,442.143" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[bac0729562ba0e52aa08b97273fd340f]
+link _add_account_repository to _models_account--><path d="M1210.74,500.16 C1305.75,496.838 1471.68,487.589 1611.56,462 C1622.37,460.022 1633.75,457.339 1644.68,454.445 " fill="none" id="_add_account_repository-&gt;_models_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1649.67,453.102,1639.9396,451.5793,1644.8419,454.4019,1642.0194,459.3042,1649.67,453.102" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f1171db0e4c588a90312d499e148ba57]
+link <b>app</b> to middlewares--><path d="M94.2523,444.081 C69.1626,444.136 27.6921,439.726 10.5563,412 C4.4812,402.17 4.4812,395.83 10.5563,386 C20.2893,370.252 37.8727,362.026 55.8462,357.868 " fill="none" id="&lt;b&gt;app&lt;/b&gt;-&gt;middlewares" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="60.9198,356.8,51.2889,354.7395,56.027,357.8298,52.9366,362.568,60.9198,356.8" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[36a52ea6ee24926a3f72709daef9af11]
+link <b>app</b> to routes--><path d="M114.556,429.938 C114.556,425.652 114.556,421.367 114.556,417.082 " fill="none" id="&lt;b&gt;app&lt;/b&gt;-&gt;routes" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="114.556,412.052,110.556,421.052,114.556,417.052,118.556,421.052,114.556,412.052" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[439cc5c900d7abf1b7281ca76f5358ea]
+link _bcrypt_encrypter_adapter to _encrypter--><path d="M610.932,591.766 C635.334,574.597 675.309,548.73 713.556,534 C845.938,483.017 1014.38,461.291 1090.69,453.59 " fill="none" id="_bcrypt_encrypter_adapter-&gt;_encrypter" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1096.03,453.06,1086.6752,449.9799,1091.0551,453.5599,1087.475,457.9398,1096.03,453.06" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[2b6d5651ee8829424e3b1e232b664c9d]
+link _controller to _http--><path d="M1353.09,250 C1373.03,250 1397.22,250 1415.11,250 " fill="none" id="_controller-&gt;_http" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1420.44,250,1411.44,246,1415.44,250,1411.44,254,1420.44,250" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[67242d0c6db569c32a5fe13145a04cb7]
+link _db_add_account to db-add-account-protocols--><path d="M642.557,471.529 C665.499,468.83 692.634,465.638 717.859,462.67 " fill="none" id="_db_add_account-&gt;db-add-account-protocols" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="722.877,462.08,713.4712,459.1591,717.9113,462.6643,714.4061,467.1043,722.877,462.08" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[7ea37f640db41b9c9950384b99b12146]
+link db-add-account-protocols to _add_account--><path d="M862.703,438.793 C928.518,424.639 1036.89,405 1131.56,405 C1131.56,405 1131.56,405 1316.56,405 C1385.01,405 1463.29,416.819 1513.16,425.862 " fill="none" id="db-add-account-protocols-&gt;_add_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1518.2,426.783,1510.067,421.2284,1513.2817,425.883,1508.627,429.0977,1518.2,426.783" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[92a4b7a3eb1ffce8a218c927f499320b]
+link db-add-account-protocols to _add_account_repository--><path d="M874.774,463.814 C926.365,471.486 995.684,481.794 1049.3,489.767 " fill="none" id="db-add-account-protocols-&gt;_add_account_repository" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1054.43,490.531,1046.124,485.2385,1049.4855,489.7883,1044.9357,493.1498,1054.43,490.531" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[5d4d31350048d2bf01e5931107cc17ff]
+link db-add-account-protocols to _encrypter--><path d="M888.629,452.212 C953.886,451.618 1040.45,450.83 1090.67,450.372 " fill="none" id="db-add-account-protocols-&gt;_encrypter" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1095.72,450.326,1086.686,446.4033,1090.7202,450.3689,1086.7546,454.403,1095.72,450.326" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[141a635559a296c6f34233131187ea44]
+link db-add-account-protocols to _models_account--><path d="M841.974,435.239 C865.617,425.257 896.372,413.195 924.556,405 C1094.13,355.696 1137.96,329 1314.56,329 C1314.56,329 1314.56,329 1442.56,329 C1533.32,329 1629.49,384.898 1675.83,415.89 " fill="none" id="db-add-account-protocols-&gt;_models_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1680.16,418.809,1674.9405,410.4569,1676.0165,416.0105,1670.4629,417.0865,1680.16,418.809" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[123f73c59459e841e2269deb7b390e5e]
+link errors to _invalid_param_error--><path d="M1159.88,146 C1182.31,146 1215.57,146 1245.51,146 " fill="none" id="errors-&gt;_invalid_param_error" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1250.67,146,1241.67,142,1245.67,146,1241.67,150,1250.67,146" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[d0f720d82e8ca18594cc148edd518704]
+link errors to _missing_param_error--><path d="M1156.11,139.519 C1179.5,132.8 1217.16,121.982 1249.89,112.578 " fill="none" id="errors-&gt;_missing_param_error" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1255.1,111.082,1245.3441,109.7321,1250.2957,112.4673,1247.5606,117.4189,1255.1,111.082" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[efbb07a374c00be28a9aab7470059d34]
+link errors to _server_error--><path d="M1156.11,152.481 C1183.66,160.395 1231.01,173.997 1266.78,184.276 " fill="none" id="errors-&gt;_server_error" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1271.98,185.767,1264.4232,179.4508,1267.1719,184.3949,1262.2278,187.1437,1271.98,185.767" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[5481a1e53e34944f744219ae02b32f34]
+link express-adapter to protocols--><path d="M360.801,496.066 C378.352,492.718 396.319,486.201 409.556,474 C464.241,423.595 384.185,314 458.556,314 C458.556,314 458.556,314 802.056,314 C908.237,314 1031.83,290.28 1093.08,276.906 " fill="none" id="express-adapter-&gt;protocols" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1098.09,275.803,1088.4364,273.8518,1093.2092,276.8883,1090.1728,281.6611,1098.09,275.803" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[36384b3c3a56056fbf39f8dd1a2ede76]
+link http-helper to errors--><path d="M1017.69,138.839 C1044.15,140.503 1076.9,142.563 1100.48,144.045 " fill="none" id="http-helper-&gt;errors" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1105.66,144.371,1096.9292,139.8132,1100.6699,144.0567,1096.4264,147.7974,1105.66,144.371" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[46ef2a4d40805e14c0f44994edd7e8cd]
+link http-helper to _http--><path d="M1013.42,129.916 C1026.55,127.988 1041.16,125.873 1054.56,124 C1094.52,118.412 1202.98,125.132 1234.56,100 C1246.44,90.54 1234.07,76.652 1246.56,68 C1271.76,50.532 1359.89,49.781 1384.56,68 C1435.2,105.405 1441.49,187.884 1441.38,227.67 " fill="none" id="http-helper-&gt;_http" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1441.33,232.763,1445.4172,223.8023,1441.3786,227.7632,1437.4176,223.7246,1441.33,232.763" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[aea5c0c18cfdcf5af05489d93cbd7d1d]
+link middlewares to middlewares--><path d="M85.7502,343.876 C72.6105,334.217 82.2126,324 114.556,324 C142.857,324 153.746,331.823 147.224,340.249 " fill="none" id="middlewares-&gt;middlewares" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="143.362,343.876,152.6606,340.6301,147.0065,340.4529,147.1837,334.7988,143.362,343.876" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[13b16675ca41f583351b0284c048d023]
+link middlewares to cors--><path d="M152.958,364.307 C161.248,367.469 169.62,371.615 176.556,377 C199.05,394.462 189.265,413.617 212.556,430 C230.053,442.307 253.883,447.734 271.942,450.124 " fill="none" id="middlewares-&gt;cors" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="277.347,450.773,268.8891,445.7268,272.3828,450.1759,267.9337,453.6695,277.347,450.773" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[76b056c275ecaa20acb69f2cf5fd2d55]
+link middlewares to middlewares/body-parser--><path d="M152.488,364.309 C176.511,370.364 208.43,378.409 236.257,385.423 " fill="none" id="middlewares-&gt;middlewares/body-parser" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="241.402,386.72,233.6535,380.6405,236.5538,385.4972,231.6971,388.3976,241.402,386.72" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[8a60714acd9a82658d51ebc63186392d]
+link middlewares to middlewares/content-type--><path d="M167.365,351.877 C180.693,351.074 195.41,350.187 210.018,349.306 " fill="none" id="middlewares-&gt;middlewares/content-type" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="215.391,348.983,206.1662,345.5329,210.4001,349.2845,206.6486,353.5184,215.391,348.983" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[58327f97a0318127fdbe63d78daf6603]
+link protocols to _controller--><path d="M1173.28,264.05 C1202.79,261.115 1242.95,257.121 1272.91,254.141 " fill="none" id="protocols-&gt;_controller" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1278.01,253.635,1268.664,250.5283,1273.0337,254.1208,1269.4412,258.4905,1278.01,253.635" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[563acf224321f6f631031c199e6a41ca]
+link protocols to _http--><path d="M1169.4,274.636 C1218.57,282.503 1309.42,292.593 1384.56,276 C1395.26,273.636 1406.35,269.012 1415.81,264.31 " fill="none" id="protocols-&gt;_http" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1420.31,262.006,1410.4767,262.5587,1415.8621,264.2899,1414.1309,269.6753,1420.31,262.006" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[d329cc2065d4c4fc546a325dac036efc]
+link <b>server</b> to env--><path d="M114.556,565.938 C114.556,561.652 114.556,557.367 114.556,553.082 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;env" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="114.556,548.052,110.556,557.052,114.556,553.052,118.556,557.052,114.556,548.052" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[e33095cefc33d018debf636907f8cdb0]
+link <b>server</b> to _mongo_helper--><path d="M130.556,590.27 C173.46,621.3521 301.342,706 421.556,706 C421.556,706 421.556,706 459.556,706 C556.813,706 581.364,701.3452 677.556,687 C699.952,683.6601 724.401,678.7344 745.525,674.066 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;_mongo_helper" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="750.539,672.9491,740.8846,671.0016,745.6586,674.0362,742.624,678.8102,750.539,672.9491" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[bd714cf6d42bd3170de2c07fa745b052]
+link _signup to errors--><path d="M615.814,184.316 C698.624,179.357 939.829,164.735 1018.56,158 C1046.52,155.608 1078.29,152.17 1101.01,149.586 " fill="none" id="_signup-&gt;errors" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1106,149.015,1096.6019,146.0695,1101.0327,149.5863,1097.516,154.0171,1106,149.015" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[67aa0c173209621d8052804118fb486e]
+link _signup to http-helper--><path d="M615.979,180.175 C641.451,175.107 679.88,167.836 713.556,163 C785.47,152.674 869.241,144.608 921.091,140.075 " fill="none" id="_signup-&gt;http-helper" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="926.319,139.62,917.0065,136.4141,921.3378,140.0528,917.6991,144.3841,926.319,139.62" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[710da1d9a376c18d40ec92203045d489]
+link _signup to signup-protocols--><path d="M615.775,188.257 C645.812,190.66 694.393,194.547 734.134,197.726 " fill="none" id="_signup-&gt;signup-protocols" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="739.431,198.15,730.7785,193.4453,734.4469,197.7514,730.1408,201.4199,739.431,198.15" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[391dec1202bdac3dcb8e0064438711fe]
+link signup-factory to _account_repository_account--><path d="M320.63,558.058 C352.029,577.455 414.306,613.8579 471.556,635 C478.968,637.7371 486.761,640.243 494.649,642.5246 " fill="none" id="signup-factory-&gt;_account_repository_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="499.569,643.9163,491.9964,637.619,494.7575,642.5562,489.8203,645.3174,499.569,643.9163" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[467ef71572a3fd9135508f1d40981371]
+link signup-factory to _bcrypt_encrypter_adapter--><path d="M342.183,554.443 C384.783,563.993 451.707,578.995 504.603,590.853 " fill="none" id="signup-factory-&gt;_bcrypt_encrypter_adapter" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="509.677,591.99,501.7707,586.1172,504.7982,590.8957,500.0197,593.9232,509.677,591.99" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[aa2a199d0061fd256fc428330622ff89]
+link signup-factory to _db_add_account--><path d="M344.097,536.147 C364.111,532.021 388.069,526.941 409.556,522 C448.174,513.12 491.343,502.341 525.263,493.675 " fill="none" id="signup-factory-&gt;_db_add_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="530.198,492.412,520.4877,490.766,525.3538,493.6505,522.4693,498.5167,530.198,492.412" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[3de3836303fa84f3e2008ebbf21beb56]
+link signup-factory to _signup--><path d="M356.353,542.656 C374.77,539.548 394.375,533.485 409.556,522 C423.688,511.309 538.508,281.002 574.683,207.994 " fill="none" id="signup-factory-&gt;_signup" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="576.951,203.417,569.3716,209.7061,574.7315,207.8974,576.5402,213.2573,576.951,203.417" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[350776191b784ed912e7b5320c1f34af]
+link signup-protocols to _add_account--><path d="M835.677,216.181 C860.191,225.656 894.278,238.549 924.556,249 C981.824,268.767 996.326,273.281 1054.56,290 C1245.2,344.737 1299.14,337.061 1486.56,402 C1498.81,406.247 1511.83,411.608 1523.63,416.81 " fill="none" id="signup-protocols-&gt;_add_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1528.26,418.87,1521.6577,411.5618,1523.6902,416.8409,1518.4111,418.8734,1528.26,418.87" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f92fc10b56f6d101748966c50dacee60]
+link signup-protocols to _email_validator--><path d="M818.035,187.756 C840.131,167.582 882.117,132.425 924.556,114 C972.79,93.059 1032.08,83.025 1074.82,78.25 " fill="none" id="signup-protocols-&gt;_email_validator" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1079.95,77.694,1070.5689,74.6949,1074.9796,78.2369,1071.4375,82.6476,1079.95,77.694" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[2b124937c3d210463a2813086f7eeb94]
+link signup-protocols to _models_account--><path d="M816.122,187.549 C837.569,164.779 880.609,122.095 924.556,96 C1007.7,46.63 1034.86,29 1131.56,29 C1131.56,29 1131.56,29 1442.56,29 C1627.04,29 1687.46,328.627 1700.9,413.714 " fill="none" id="signup-protocols-&gt;_models_account" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="1701.68,418.772,1704.2577,409.2665,1700.916,413.8307,1696.3517,410.4889,1701.68,418.772" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[b6c969e41f2d8fdcb347454596373b5d]
+link signup-protocols to protocols--><path d="M851.386,212.731 C916.694,225.614 1030.63,248.091 1091.13,260.025 " fill="none" id="signup-protocols-&gt;protocols" style="stroke: #000000; stroke-width: 0.5; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="1096.1,261.006,1088.0325,255.3566,1091.1925,260.0485,1086.5006,263.2085,1096.1,261.006" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[6060943bb04031e8a3ce656baa2b291c]
+link <b>signup-routes</b> to express-adapter--><path d="M175.566,491.959 C193.894,492.863 214.134,493.861 232.792,494.782 " fill="none" id="&lt;b&gt;signup-routes&lt;/b&gt;-&gt;express-adapter" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="238.01,495.039,229.2175,490.6015,233.016,494.7932,228.8243,498.5918,238.01,495.039" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[0c6024c6b46e281bacb5b91d13e48e23]
+link <b>signup-routes</b> to signup-factory--><path d="M150.399,501.467 C168.791,507.892 191.794,515.683 212.556,522 C225.669,525.989 240.019,529.99 253.155,533.51 " fill="none" id="&lt;b&gt;signup-routes&lt;/b&gt;-&gt;signup-factory" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#000000" points="258.315,534.885,250.6498,528.7008,253.4839,533.5965,248.5882,536.4306,258.315,534.885" style="stroke: #000000; stroke-width: 1.0;"/><script type="text/plantuml"><![CDATA[MD5=[9eb7dea85b4e2a9e45c80ccc41e6e645]
+@startuml
+
+scale max 1920 width
+left to right direction
+
+skinparam nodesep 18
+skinparam ranksep 36
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+
+package "Data" {
+  rectangle "add-account-repository" as _add_account_repository
+  rectangle "db-add-account" as _db_add_account
+  (db-add-account-protocols)
+  rectangle "encrypter" as _encrypter
+}
+
+package "Domain" {
+  rectangle "add-account" as _add_account
+  rectangle "models/account" as _models_account
+}
+
+package "Infra" {
+  rectangle "account-repository/account" as _account_repository_account
+  rectangle "bcrypt-encrypter-adapter" as _bcrypt_encrypter_adapter
+  rectangle "mongo-helper" as _mongo_helper
+}
+
+package "Main" {
+  (<b>app</b>)
+  (cors)
+  (env)
+  (express-adapter)
+  (middlewares)
+  (middlewares)
+  (middlewares/body-parser)
+  (middlewares/content-type)
+  (routes)
+  (<b>server</b>)
+  (signup-factory)
+  (<b>signup-routes</b>)
+}
+
+package "Presentation" {
+  rectangle "controller" as _controller
+  rectangle "email-validator" as _email_validator
+  (errors)
+  rectangle "http" as _http
+  (http-helper)
+  rectangle "invalid-param-error" as _invalid_param_error
+  rectangle "missing-param-error" as _missing_param_error
+  (protocols)
+  rectangle "server-error" as _server_error
+  rectangle "signup" as _signup
+  (signup-protocols)
+}
+
+
+_account_repository_account ----> _add_account
+_account_repository_account ----> _add_account_repository
+_account_repository_account ----> _models_account
+_account_repository_account ..> _mongo_helper
+_add_account ..> _models_account
+_add_account_repository ----> _add_account
+_add_account_repository ----> _models_account
+(<b>app</b>) .[thickness=1]> (middlewares)
+(<b>app</b>) .[thickness=1]> (routes)
+_bcrypt_encrypter_adapter ----> _encrypter
+_controller ..> _http
+_db_add_account ..> (db-add-account-protocols)
+(db-add-account-protocols) ----> _add_account
+(db-add-account-protocols) ...> _add_account_repository
+(db-add-account-protocols) ...> _encrypter
+(db-add-account-protocols) ----> _models_account
+(errors) ..> _invalid_param_error
+(errors) ..> _missing_param_error
+(errors) ..> _server_error
+(express-adapter) ----> (protocols)
+(http-helper) ..> (errors)
+(http-helper) ..> _http
+(middlewares) ..> (middlewares)
+(middlewares) ..> (cors)
+(middlewares) ..> (middlewares/body-parser)
+(middlewares) ..> (middlewares/content-type)
+(protocols) ..> _controller
+(protocols) ..> _http
+(<b>server</b>) .[thickness=1]> (env)
+(<b>server</b>) ----[thickness=1]> _mongo_helper
+_signup ...> (errors)
+_signup ...> (http-helper)
+_signup ..> (signup-protocols)
+(signup-factory) ----> _account_repository_account
+(signup-factory) ----> _bcrypt_encrypter_adapter
+(signup-factory) ----> _db_add_account
+(signup-factory) ----> _signup
+(signup-protocols) ----> _add_account
+(signup-protocols) ...> _email_validator
+(signup-protocols) ----> _models_account
+(signup-protocols) ...> (protocols)
+(<b>signup-routes</b>) ..[thickness=1]> (express-adapter)
+(<b>signup-routes</b>) ..[thickness=1]> (signup-factory)
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>

@@ -7,8 +7,6 @@ export const MongoHelper = {
       useNewUrlParser: true,
       useUnifiedTopology: true
     })
-    const msg = this.connection.isConnected() ? 'Mongo connected' : 'Not connected to Mongo'
-    console.info(msg)
   },
   async disconnect (): Promise<void> {
     await this.connection.close()

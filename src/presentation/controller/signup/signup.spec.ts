@@ -68,20 +68,6 @@ const signupFactory = (): SutTypes => {
 }
 
 describe('Signup Controller', () => {
-  test('Should return 400 if no passwordConfirmation fails', async () => {
-    const { signupController } = signupFactory()
-    const httpRequest = {
-      body: {
-        email: 'any_email@mail.com',
-        name: 'any_name',
-        password: 'any_password',
-        passwordConfirmation: 'invalid_password'
-      }
-    }
-    const httpResponse = await signupController.handle(httpRequest)
-    expect(httpResponse).toEqual(badRequest(new InvalidParamError('passwordConfirmation')))
-  })
-
   test('Should return 400 if an invalid email is provided', async () => {
     const { signupController, emailValidatorStub } = signupFactory()
     jest.spyOn(emailValidatorStub, 'isValid').mockReturnValueOnce(false)

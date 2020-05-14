@@ -9,8 +9,5 @@
         "typescript"
     ],
     "editor.renderLineHighlight": "line",
-    "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#9e959541"
-    },
     "eslint.options": { "configFile": "./.eslintrc.json" }
 }

@@ -9,5 +9,7 @@
         "typescript"
     ],
     "editor.renderLineHighlight": "line",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [90,120],
     "eslint.options": { "configFile": "./.eslintrc.json" }
 }

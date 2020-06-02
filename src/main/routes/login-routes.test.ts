@@ -15,15 +15,18 @@ describe('Signup Route', () => {
   afterAll(async () => {
     await MongoHelper.disconnect()
   })
-  test('Should return an account on success', async () => {
-    await request(app)
-      .post('/api/signup')
-      .send({
-        name: 'Daniel',
-        email: 'danielsena04@gmail.com',
-        password: '123',
-        passwordConfirmation: '123'
-      })
-      .expect(200)
+
+  describe('POST /signup', () => {
+    test('Should return http 200 on signup', async () => {
+      await request(app)
+        .post('/api/signup')
+        .send({
+          name: 'Daniel',
+          email: 'danielsena04@gmail.com',
+          password: '123',
+          passwordConfirmation: '123'
+        })
+        .expect(200)
+    })
   })
 })

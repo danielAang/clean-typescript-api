@@ -1,13 +1,9 @@
 {
-    "extends": [
-        "standard-with-typescript"
-    ],
+    "extends": "standard-with-typescript",
     "parserOptions": {
-        "project": "./tsconfig.json"
+        "project": "./tsconfig.eslint.json"
     },
     "rules": {
-        "@typescript-eslint/strict-boolean-expressions": "off",
-        "no-return-await": "off",
-        "@typescript-eslint/return-await": ["off", "never"]
+        "@typescript-eslint/strict-boolean-expressions": "off"
     }
 }

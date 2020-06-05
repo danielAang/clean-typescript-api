@@ -13,7 +13,7 @@ interface SutTypes {
 const makeController = (): Controller => {
   class ControllerStub implements Controller {
     async handle (httpRequest: HttpRequest): Promise<HttpResponse> {
-      return new Promise(resolve => resolve(ok(fakeAccount())))
+      return await new Promise(resolve => resolve(ok(fakeAccount())))
     }
   }
   return new ControllerStub()
@@ -22,7 +22,7 @@ const makeController = (): Controller => {
 const makeLogErrorRepository = (): LogErrorRepository => {
   class LogErrorRepository implements LogErrorRepository {
     async logError (stack: string): Promise<void> {
-      return new Promise(resolve => resolve(null))
+      return await new Promise(resolve => resolve(null))
     }
   }
   return new LogErrorRepository()

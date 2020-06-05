@@ -29,7 +29,7 @@ const dbAddAccountFactory = (): SutTypes => {
 
   class AddAccountRepository implements AddAccountRepository {
     async add (accountData: AddAccountModel): Promise<AccountModel> {
-      return new Promise(resolve => resolve(fakeAccount()))
+      return await new Promise(resolve => resolve(fakeAccount()))
     }
   }
 

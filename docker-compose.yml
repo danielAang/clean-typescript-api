@@ -1,0 +1,22 @@
+version: '3'
+services: 
+    mongo:
+        container_name: mongo_container
+        image: mongo:3
+        restart: always
+        volumes: 
+            - ./data:/data/db
+        ports: 
+            - 27017:27017
+    backend:
+        container_name: backend_container
+        build: .
+        image: mp-backend
+        restart: always
+        command: npm start
+        volumes: 
+            - ./dist:/usr/src/mp-back/dist
+        ports: 
+            - 5050:5050
+        links: 
+            - mongo

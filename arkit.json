@@ -1,6 +1,6 @@
 {
   "$schema": "https://arkit.js.org/schema.json",
-  "excludePatterns": ["test/**", "tests/**", "**/*.test.*", "**/*.spec.*"],
+  "excludePatterns": ["test/**", "tests/**", "**/*.test.*", "**/*.spec.*", "data"],
   "components": [
     {
       "type": "Entry",

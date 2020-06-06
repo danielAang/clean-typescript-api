@@ -13,10 +13,13 @@ services:
         build: .
         image: mp-backend
         restart: always
-        command: npm start
+        command: npm run debug
         volumes: 
             - ./dist:/usr/src/mp-back/dist
+            - ./package.json:/usr/src/mp-back/package.json
+            - ./package-lock.json:/usr/src/mp-back/package-lock.json
         ports: 
             - 5050:5050
+            - 9222:9222
         links: 
             - mongo

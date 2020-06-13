@@ -1,7 +1,7 @@
 import { ServerError, EmailAlreadyUsedError } from '../../../errors'
 import { badRequest, ok, serverError, forbidden } from '../../../helpers/http/http-helper'
 import { HttpRequest } from '../../../protocols'
-import { SignupController } from './signup-controller'
+import { SignupController } from '../sign-up/signup-controller'
 import { AccountModel, AddAccount, AddAccountModel, Validation } from './signup-controller-protocols'
 import { Authentication, AuthenticationModel } from '../sign-in/login-controller-protocols'
 

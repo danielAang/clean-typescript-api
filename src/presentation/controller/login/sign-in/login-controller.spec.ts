@@ -1,8 +1,7 @@
-import { LoginController } from './login-controller'
-import { ok, badRequest, serverError, unauthorized } from '../../helpers/http/http-helper'
-import { HttpRequest, Authentication } from './login-controller-protocols'
-import { Validation } from '../signup/signup-controller-protocols'
-import { AuthenticationModel } from '../../../domain/usecases/authentication'
+import { LoginController } from '../sign-in/login-controller'
+import { ok, badRequest, serverError, unauthorized } from '../../../helpers/http/http-helper'
+import { Validation, HttpRequest, Authentication } from '../sign-in/login-controller-protocols'
+import { AuthenticationModel } from '../../../../domain/usecases/authentication'
 
 interface SutTypes {
   sut: LoginController

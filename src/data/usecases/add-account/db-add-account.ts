@@ -1,5 +1,4 @@
-import { AccountModel, AddAccount, AddAccountModel, AddAccountRepository, Hasher } from './db-add-account-protocols'
-import { LoadAccountByEmailRepository } from '../authentication/db-authentication-protocols'
+import { AccountModel, AddAccount, AddAccountModel, AddAccountRepository, Hasher, LoadAccountByEmailRepository } from './db-add-account-protocols'
 
 export class DbAddAccount implements AddAccount {
   private readonly hasher: Hasher

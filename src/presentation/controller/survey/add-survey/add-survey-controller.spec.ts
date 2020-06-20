@@ -44,7 +44,7 @@ const makeAddSurveyStub = (): AddSurvey => {
 const makeSut = (): SutTypes => {
   const validationStub = makeValidationStub()
   const addSurveyStub = makeAddSurveyStub()
-  const sut = new AddSurveyController(validationStub, addSurveyStub)
+  const sut = new AddSurveyController(addSurveyStub, validationStub)
   return {
     sut,
     validationStub,

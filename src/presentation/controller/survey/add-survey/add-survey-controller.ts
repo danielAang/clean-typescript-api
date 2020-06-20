@@ -9,8 +9,8 @@ import { badRequest, serverError, noContent } from '../../../helpers/http/http-h
 
 export class AddSurveyController implements Controller {
   constructor (
-    private readonly validation: Validation,
-    private readonly addSurvey: AddSurvey
+    private readonly addSurvey: AddSurvey,
+    private readonly validation: Validation
   ) {}
 
   async handle (httpRequest: HttpRequest): Promise<HttpResponse> {

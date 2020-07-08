@@ -5,10 +5,8 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Match-Point/company-back/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Match-Point/company-back/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Build Status](https://travis-ci.org/danielAang/clean-typescript-api.svg?branch=master)](https://travis-ci.org/danielAang/clean-typescript-api)
+[![Coverage Status](https://coveralls.io/repos/github/danielAang/clean-typescript-api/badge.svg?branch=master)](https://coveralls.io/github/danielAang/clean-typescript-api?branch=master)
 
 </div>
 

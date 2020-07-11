@@ -8,6 +8,38 @@ import { sign } from 'jsonwebtoken'
 let surveyCollection: Collection
 let accountCollection: Collection
 
+const makeAccessToken = async (): Promise<string> => {
+  const res = await accountCollection.insertOne({
+    name: 'Daniel',
+    email: 'danielsena04@gmail.com',
+    password: '123',
+    role: 'admin'
+  })
+  const id = res.ops[0]._id
+  const token = sign({ id }, env.jwtSecret)
+  await accountCollection.updateOne(
+    { _id: id },
+    { $set: { accessToken: token } }
+  )
+  return token
+}
+
+const makeFakeSurvey = (): any => {
+  return {
+    question: 'Question',
+    answers: [
+      {
+        answer: 'Answer 1',
+        img: 'http://image-name.com'
+      },
+      {
+        answer: 'Answer 1'
+      }
+    ],
+    date: new Date()
+  }
+}
+
 describe('Survey Route', () => {
   beforeAll(async () => {
     await MongoHelper.connect(process.env.MONGO_URL)
@@ -29,50 +61,16 @@ describe('Survey Route', () => {
     test('Should return http 403 on addSurvey without accessToken', async () => {
       await request(app)
         .post('/api/surveys')
-        .send({
-          question: 'Question',
-          answers: [
-            {
-              answer: 'Answer 1',
-              img: 'http://image-name.com'
-            },
-            {
-              answer: 'Answer 1'
-            }
-          ]
-        })
+        .send(makeFakeSurvey())
         .expect(403)
     })
 
     test('Should return http 204 on addSurvey with valid accessToken', async () => {
-      const res = await accountCollection.insertOne({
-        name: 'Daniel',
-        email: 'danielsena04@gmail.com',
-        password: '123',
-        role: 'admin'
-      })
-      const id = res.ops[0]._id
-      const token = sign({ id }, env.jwtSecret)
-      await accountCollection.updateOne(
-        { _id: id },
-        { $set: { accessToken: token } }
-      )
-
+      const token = await makeAccessToken()
       await request(app)
         .post('/api/surveys')
         .set('x-access-token', token)
-        .send({
-          question: 'Question',
-          answers: [
-            {
-              answer: 'Answer 1',
-              img: 'http://image-name.com'
-            },
-            {
-              answer: 'Answer 1'
-            }
-          ]
-        })
+        .send(makeFakeSurvey())
         .expect(204)
     })
   })
@@ -86,18 +84,7 @@ describe('Survey Route', () => {
   })
 
   test('Should return http 204 on loadSurveys with valid accessToken', async () => {
-    const res = await accountCollection.insertOne({
-      name: 'Daniel',
-      email: 'danielsena04@gmail.com',
-      password: '123',
-      role: 'admin'
-    })
-    const id = res.ops[0]._id
-    const token = sign({ id }, env.jwtSecret)
-    await accountCollection.updateOne(
-      { _id: id },
-      { $set: { accessToken: token } }
-    )
+    const token = await makeAccessToken()
 
     await request(app)
       .get('/api/surveys')

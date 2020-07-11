@@ -32,7 +32,7 @@ export const unauthorized = (): HttpResponse => {
 export const forbidden = (error: Error): HttpResponse => {
   return {
     statusCode: 403,
-    body: new ServerError(error.stack)
+    body: error
   }
 }
 

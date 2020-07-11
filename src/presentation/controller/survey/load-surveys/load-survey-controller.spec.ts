@@ -1,6 +1,6 @@
 import { LoadSurveysController } from './load-survey-controller'
 import { LoadSurveys, SurveyModel } from './load-survey-controller-protocols'
-import { ok, serverError, noContent } from '../../../helpers/http/http-helper'
+import { ok, serverError, noContent } from '@/presentation/helpers/http/http-helper'
 import MockDate from 'mockdate'
 
 interface SutTypes {

@@ -1,9 +1,9 @@
-import { ServerError, EmailAlreadyUsedError } from '../../../errors'
-import { badRequest, ok, serverError, forbidden } from '../../../helpers/http/http-helper'
-import { HttpRequest } from '../../../protocols'
-import { SignupController } from '../sign-up/signup-controller'
+import { ServerError, EmailAlreadyUsedError } from '@/presentation/errors'
+import { badRequest, ok, serverError, forbidden } from '@/presentation/helpers/http/http-helper'
+import { HttpRequest } from '@/presentation/protocols'
+import { SignupController } from '@/presentation/controller/login/sign-up/signup-controller'
 import { AccountModel, AddAccount, AddAccountModel, Validation } from './signup-controller-protocols'
-import { Authentication, AuthenticationModel } from '../sign-in/login-controller-protocols'
+import { Authentication, AuthenticationModel } from '@/presentation/controller/login/sign-in/login-controller-protocols'
 
 interface SutTypes {
   sut: SignupController

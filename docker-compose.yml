@@ -14,6 +14,8 @@ services:
         working_dir: /usr/src/mp-back
         restart: always
         command: bash -c "npm install --only=prod && npm run debug"
+        environment: 
+            - MONGO_URL=mongodb://mongo:27017/mp-database-mongo
         volumes: 
             - ./dist/:/usr/src/mp-back/dist/
             - ./package.json:/usr/src/mp-back/package.json

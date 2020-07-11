@@ -3,7 +3,7 @@ import { ok, forbidden, serverError } from '@/presentation/helpers/http/http-hel
 import { AuthMiddleware } from './auth-middleware'
 import { LoadAccountByToken, HttpRequest, Middleware, AccountModel } from './auth-middleware-protocols'
 
-interface SutTypes {
+type SutTypes = {
   sut: Middleware
   loadAccountByTokenStub: LoadAccountByToken
 }

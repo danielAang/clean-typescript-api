@@ -5,7 +5,7 @@ import { SignupController } from '@/presentation/controller/login/sign-up/signup
 import { AccountModel, AddAccount, AddAccountModel, Validation } from './signup-controller-protocols'
 import { Authentication, AuthenticationModel } from '@/presentation/controller/login/sign-in/login-controller-protocols'
 
-interface SutTypes {
+type SutTypes = {
   sut: SignupController
   addAccountStub: AddAccount
   validationStub: Validation
